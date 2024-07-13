@@ -1,0 +1,260 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #D2691E;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 3rem;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFDD0;
+    font-weight: 500;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #FFF5E1;
+    background-image: url('bakery.png');
+    opacity: 0.75;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .content h1, 
+.hero .content p {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+
+}
+
+h1 span {
+    display: block;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+    color: #8B4513;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #FFC0CB;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #FF69B4;
+    transform: scale(1.5,1.5);
+}
+
+
+
+.image-container {
+    max-width: 45%;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 50%;
+    clip-path: ellipse(50% 50% at 50% 50%);
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background: #F8E8D8;
+    color: #8B4513;
+}
+
+.feature {
+    text-align: center;
+    max-width: 200px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer {
+    background-color: #D2691E;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-section {
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #222;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover
+{
+    background-color: #FFB6C1;
+    color: #fff;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #8B4513;
+}
+
+.button
+{
+    background-color: #FFB6C1;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.button:hover
+{
+    background-color: #FF69B4;
+}
+
+.image-containers
+{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.image-containers img
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.image-containers:hover
+{
+    opacity: 1;
+}
+
+.para
+{
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.containers
+{
+    background-color: #FFF5E1;
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
